@@ -16,16 +16,41 @@ body{
 
 }
 .subtitulo{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold; /*negrito*/
     font-family: 'Trebuchet MS';
-    letter-spacing: 2px; /*espaçamento de letras*/
+    letter-spacing: -1px; /*espaçamento de letras*/
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .destaque{
     color: black;
     background-color: white;
+    font-family: Arial;
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
+}
+.titulo{
+    font-size: 60px;
+    font-family: Tahoma;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.botao{
+    border:1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    text-decoration: none;
 }
